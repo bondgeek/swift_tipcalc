@@ -13,6 +13,7 @@
 		4C65065B19C31FF4005E732F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C65065A19C31FF4005E732F /* Images.xcassets */; };
 		4C65065E19C31FF4005E732F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C65065C19C31FF4005E732F /* LaunchScreen.xib */; };
 		4C65066A19C31FF4005E732F /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65066919C31FF4005E732F /* TipCalculatorTests.swift */; };
+		4C65067419C3293C005E732F /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65067319C3293C005E732F /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4C65066319C31FF4005E732F /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C65066819C31FF4005E732F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C65066919C31FF4005E732F /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		4C65067319C3293C005E732F /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		4C65064519C31FF3005E732F = {
 			isa = PBXGroup;
 			children = (
+				4C65067319C3293C005E732F /* TipCalculatorModel.swift */,
 				4C65065019C31FF4005E732F /* TipCalculator */,
 				4C65066619C31FF4005E732F /* TipCalculatorTests */,
 				4C65064F19C31FF4005E732F /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C65067419C3293C005E732F /* TipCalculatorModel.swift in Sources */,
 				4C65065619C31FF4005E732F /* ViewController.swift in Sources */,
 				4C65065419C31FF4005E732F /* AppDelegate.swift in Sources */,
 			);
