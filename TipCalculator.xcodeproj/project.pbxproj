@@ -83,8 +83,8 @@
 				4C65065319C31FF4005E732F /* AppDelegate.swift */,
 				4C65065519C31FF4005E732F /* ViewController.swift */,
 				4C65065719C31FF4005E732F /* Main.storyboard */,
-				4C65065A19C31FF4005E732F /* Images.xcassets */,
 				4C65065C19C31FF4005E732F /* LaunchScreen.xib */,
+				4C65065A19C31FF4005E732F /* Images.xcassets */,
 				4C65065119C31FF4005E732F /* Supporting Files */,
 			);
 			path = TipCalculator;
@@ -344,7 +344,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TipCalculator/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -359,7 +359,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TipCalculator/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
